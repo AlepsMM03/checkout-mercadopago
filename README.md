@@ -29,11 +29,5 @@ Antes de utilizar este código, asegúrate de tener instalado Node.js y npm en t
 - **`package.json`**: Archivo de configuración del proyecto Node.js que incluye las dependencias y scripts necesarios.
 - **`public/index.html`**: La página HTML donde se muestra el producto o servicio y se inicia el proceso de pago.
 
-### Contribución
-Si deseas contribuir a este proyecto, no dudes en crear un pull request. Toda contribución es bienvenida.
-
 ### Autor
 - **Alejandro Montes** - [GitHub](https://github.com/AlepsMM03)
-
-### Licencia
-Este proyecto está bajo la licencia ISC. Consulta el archivo `LICENSE` para obtener más detalles.
