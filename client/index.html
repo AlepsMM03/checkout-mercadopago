@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra con MercadoPago</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Bolsa del Arte México</h2>
+                <img src="https://via.placeholder.com/400x300" class="product-image img-fluid" alt="Imagen de prueba">
+                <p><span class="name">Inscripción a la convocatoria</span></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Proceso de Pago</h2>
+                <button id="checkout-btn" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div id="wallet_container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Script de MercadoPago -->
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script src="app.js"></script>
+    <!-- Alejandro Montes https://github.com/AlepsMM03 -->
+</body>
+</html>
